@@ -1,0 +1,11 @@
+import os
+import configparser
+
+config_path = os.path.join(os.path.dirname(__file__), '../config.ini')
+
+config = configparser.ConfigParser()
+config.read(config_path)
+for section in config.sections():
+	for key, value in config.items(section):
+		env_var = f'{section}_{key}'.upper()
+		os.environ[env_var] = value
