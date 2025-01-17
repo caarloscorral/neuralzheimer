@@ -127,4 +127,4 @@ Contributions are welcomed! If you have suggestions or improvements for the proj
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE] (https://github.com/caarloscorral/neuralzheimer/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/caarloscorral/neuralzheimer/blob/main/LICENSE) file for details.
